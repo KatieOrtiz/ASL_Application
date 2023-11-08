@@ -8,24 +8,24 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, white, pink);
+            background: linear-gradient(135deg, white, #FFC0CB, #FF69B4, #FFC0CB, white); /* Pink sunset ombre background with more white */
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans MS font with a cursive fallback */
         }
+
         h1, h2 {
-            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Apply Comic Sans MS font to h1 and h2 */
         }
 
         p {
-            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Apply Comic Sans MS font to paragraphs */
             font-size: 16px;
             margin: 20px 0;
         }
-
 
         .get-started-button {
             background-color: #FF69B4; /* Pink color */
@@ -34,9 +34,10 @@
             border: none;
             border-radius: 5px;
             font-size: 18px;
-            font-family: 'Comic Sans MS', cursive, sans-serif; 
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans MS font for the button text */
             cursor: pointer;
             margin-top: 15vh; /* Adjust the margin to move the button down (2 inches) */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Darker shadow effect */
         }
 
         .get-started-button:hover {
@@ -53,6 +54,6 @@
     <h1>Connect through Signs</h1>
     <img src="static/asl.jpg" alt="asl" class="center-image">
     <h2>At Your Fingertips</h2>
-    <button class="get-started-button">Ready, Set, Sign: Let's Get Started!</button>
+    <a href="login" class="get-started-button">Ready, Set, Sign: Let's Get Started!</a>
 </body>
 </html>
