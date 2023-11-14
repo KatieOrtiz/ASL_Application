@@ -10,7 +10,7 @@ def dropdown(selected_item):
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('quickstart-guide.html')
 
 
 if __name__ == '__main__':
