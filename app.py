@@ -2,7 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# Your individual route handlers are removed
 
 # This route will handle the dropdown menu rendering based on a parameter
 @app.route('/<selected_item>')

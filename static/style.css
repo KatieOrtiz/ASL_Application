@@ -88,3 +88,233 @@
     background-image: url(./bg.jpg);
     background-position: center;
   }
+
+
+
+  .activities-content {
+    padding: 20px;
+    color: var(--color-black);
+    font-size: 18px;
+}
+
+.activities-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.activities-content p {
+    margin-bottom: 15px;
+}
+
+
+.blogs-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.blogs-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blogs-content p {
+  margin-bottom: 15px;
+}
+
+
+.contact-us-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.contact-us-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-us-content p {
+  margin-bottom: 15px;
+}
+
+
+/* New styles for courses content */
+.courses-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.courses-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.courses-content p {
+  margin-bottom: 15px;
+}
+
+.courses-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.courses-content ul li {
+  margin-bottom: 20px;
+}
+
+.courses-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.customer-stories-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.customer-stories-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.customer-stories-content p {
+  margin-bottom: 15px;
+}
+
+.customer-stories-content .story {
+  margin-bottom: 20px;
+}
+
+.customer-stories-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.faq-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.faq-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq-content .faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.food-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.food-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.food-content .food-item {
+  margin-bottom: 20px;
+}
+
+.food-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+
+/* Add the following styles for Greetings */
+.greetings-content {
+  padding: 20px;
+  color: var(--color-black);
+  font-size: 18px;
+}
+
+.greetings-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.greetings-content p {
+  margin-bottom: 15px;
+}
+
+.greeting-item {
+  margin-bottom: 20px;
+}
+
+.greeting-item h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.greeting-item p {
+  font-style: italic;
+}
+
+
+/* Define a class for the ASL content container */
+.asl-sign {
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+/* Style each ASL item */
+.asl-item {
+  margin-bottom: 30px;
+}
+
+.asl-item h3 {
+  margin-bottom: 10px;
+}
+
+/* Responsive styling for embedded videos */
+.asl-item iframe {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  height: auto;
+}
+
+
+
+/* style.css */
+
+/* Styles for the lesson plans */
+.lesson-plan {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.lesson-plan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.lesson-plan p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+
