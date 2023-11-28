@@ -8,8 +8,10 @@
   </head>
   <body>
     <div class="menu-bar">
-      <a href="quickstart-guide">
-        <h1 class="logo">Learn<span>ASL</span></h1>
+      <a href="quickstart-guide" style="text-decoration: none;">
+        <h1 class="logo" style="display: inline-block; text-align: left;">
+          Learn<span>ASL</span>
+      </h1>
       </a>
       <ul>
         <li>
@@ -59,7 +61,6 @@
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='contact-us') }}">Contact Us</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='research') }}">Research</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='blogs') }}">Blogs</a></li>
               <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
@@ -75,9 +76,9 @@
 <div class="hero">
   &nbsp;
   <h1>Our History</h1>
+  <img src="static/history.jpg" alt="ASL Alphabet">
   &nbsp;
-  <p>
-  
+  <p>  
     LearnASL was founded in 20XX by a group of passionate individuals aiming to provide a comprehensive platform for learning American Sign Language (ASL).
   </p>
    &nbsp;

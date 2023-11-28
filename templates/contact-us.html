@@ -8,8 +8,10 @@
   </head>
   <body>
     <div class="menu-bar">
-      <a href="quickstart-guide">
-        <h1 class="logo">Learn<span>ASL</span></h1>
+      <a href="quickstart-guide" style="text-decoration: none;">
+        <h1 class="logo" style="display: inline-block; text-align: left;">
+          Learn<span>ASL</span>
+      </h1>
       </a>
       <ul>
         <li>
@@ -60,7 +62,6 @@
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='contact-us') }}">Contact Us</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='research') }}">Research</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='blogs') }}">Blogs</a></li>
               <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
@@ -79,8 +80,9 @@
 
   <div class="contact-us-content">
     <h1>Contact Us</h1>
+    <img src="static/contact.jpg" alt="ASL Alphabet">
     &nbsp;
-    <h2>For any inquiries or assistance, feel free to reach out to us using the contact details provided below</h2>
+    <p>For any inquiries or assistance, feel free to reach out to us using the contact details provided below:</p>
     <p>Email: info@learnasl.com</p>
     <p>Phone: +1 123-456-7890</p>
     <p>Address: 123 ASL Street, City, Country</p>

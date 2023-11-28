@@ -8,8 +8,10 @@
   </head>
   <body>
     <div class="menu-bar">
-      <a href="quickstart-guide">
-        <h1 class="logo">Learn<span>ASL</span></h1>
+      <a href="quickstart-guide" style="text-decoration: none;">
+        <h1 class="logo" style="display: inline-block; text-align: left;">
+          Learn<span>ASL</span>
+      </h1>
       </a>
       <ul>
         <li>
@@ -60,7 +62,6 @@
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='contact-us') }}">Contact Us</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='research') }}">Research</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='blogs') }}">Blogs</a></li>
               <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
@@ -77,6 +78,7 @@
       &nbsp;
       <div class="customer-stories-content">
         <h1>Customer Stories</h1>
+        <img src="static/story.webp" alt="ASL Alphabet">
         &nbsp;
         <p>Discover how ASL has impacted the lives of individuals across various walks of life.</p>
       
