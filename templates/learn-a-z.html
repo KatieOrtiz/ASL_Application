@@ -4,14 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <link rel="stylesheet" href="static/style.css" />
-    <title>ASL N-Z Signs</title>
+    <title>ASL A-M Signs</title>
   </head>
   <body>
     <div class="menu-bar">
       <h1 class="logo">Learn<span>ASL.</span></h1>
       <ul>
         <li>
-          <a href="home">Home<i class="fas fa-caret-down"></i></a>
+          <a href="quickstart-guide">Home<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='our-history') }}">Our History</a></li>
@@ -21,40 +21,27 @@
         </li>
 
         <li>
-          <a href="#">Basics<i class="fas fa-caret-down"></i></a>
+          <a href="quickstart-guide">QuickStart Guide</a>
+        </li>
+
+        <li>
+          <a href="dictionary">Dictionary</a>
+        </li>
+
+        <li>
+          <a href="learn-a-z">Video Resources <i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
-              <li><a href="{{ url_for('dropdown', selected_item='quickstart-guide') }}">QuickStart Guide</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='lesson-plans') }}">Lesson Plans</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='courses') }}">Courses</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='learn-a-z') }}">Learn A-Z</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='greetings') }}">Greetings</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='animals') }}">Animals</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='food') }}">Food</a></li>
             </ul>
           </div>
         </li>
 
         <li>
-          <a href="#">Dictionary <i class="fas fa-caret-down"></i></a>
-          <div class="dropdown-menu">
-            <ul>
-              <li><a href="{{ url_for('dropdown', selected_item='learn-a-m') }}">Learn A-M</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='learn-n-z') }}">Learn N-Z</a></li>
-              <li>
-                <a href="#">Flashcards <i class="fas fa-caret-right"></i></a>
-                <div class="dropdown-menu-1">
-                  <ul>
-                    <li><a href="{{ url_for('dropdown', selected_item='greetings') }}">Greetings</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='animals') }}">Animals</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='food') }}">Food</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='activities') }}">Activities</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li><a href="faq">FAQ</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <li>
-          <a href="#">Books<i class="fas fa-caret-down"></i></a>
+          <a href="children-books">Books<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='children-books') }}">Children Books</a></li>
@@ -65,22 +52,34 @@
         </li>
 
         <li>
-          <a href="#">About Us<i class="fas fa-caret-down"></i></a>
+          <a href="contact-us">Additional Resources<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='contact-us') }}">Contact Us</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='research') }}">Research</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='blogs') }}">Blogs</a></li>
+              <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
         </li>
       </ul>
     </div>
+    <div class="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="learn-a-z">Video Resources</a></li>
+        <li><a href="learn-a-z">Learn A-Z</a></li>
+      </ul>
+    </div>
     <div class="hero">
       &nbsp;
-
       <div class="food-content">
-        <h2>ASL Letters A-M</h2>
+        <h1>ASL Letters A-Z</h1>
+        &nbsp;
+        <div class="food-item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/bFv_mLwBvHc?si=LldDm9sZETgLSEkr" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
         <div class="food-item">          
           <iframe width="560" height="315" src="https://www.youtube.com/embed/cGavOVNDj1s?si=YPlecnTIiZ_2ufjL" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -90,7 +89,6 @@
         </div>
         </div>
       </div>
-
 
 </body>
 </html>

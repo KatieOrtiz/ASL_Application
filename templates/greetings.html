@@ -11,7 +11,7 @@
       <h1 class="logo">Learn<span>ASL.</span></h1>
       <ul>
         <li>
-          <a href="home">Home<i class="fas fa-caret-down"></i></a>
+          <a href="quickstart-guide">Home<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='our-history') }}">Our History</a></li>
@@ -21,40 +21,28 @@
         </li>
 
         <li>
-          <a href="#">Basics<i class="fas fa-caret-down"></i></a>
+          <a href="quickstart-guide">QuickStart Guide</a>
+        </li>
+
+        <li>
+          <a href="dictionary">Dictionary</a>
+        </li>
+
+        <li>
+          <a href="learn-a-z">Video Resources <i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
-              <li><a href="{{ url_for('dropdown', selected_item='quickstart-guide') }}">QuickStart Guide</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='lesson-plans') }}">Lesson Plans</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='courses') }}">Courses</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='learn-a-z') }}">Learn A-Z</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='greetings') }}">Greetings</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='animals') }}">Animals</a></li>
+              <li><a href="{{ url_for('dropdown', selected_item='food') }}">Food</a></li>
             </ul>
           </div>
         </li>
 
-        <li>
-          <a href="#">Dictionary <i class="fas fa-caret-down"></i></a>
-          <div class="dropdown-menu">
-            <ul>
-              <li><a href="{{ url_for('dropdown', selected_item='learn-a-m') }}">Learn A-M</a></li>
-              <li><a href="{{ url_for('dropdown', selected_item='learn-n-z') }}">Learn N-Z</a></li>
-              <li>
-                <a href="#">Flashcards <i class="fas fa-caret-right"></i></a>
-                <div class="dropdown-menu-1">
-                  <ul>
-                    <li><a href="{{ url_for('dropdown', selected_item='greetings') }}">Greetings</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='animals') }}">Animals</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='food') }}">Food</a></li>
-                    <li><a href="{{ url_for('dropdown', selected_item='activities') }}">Activities</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li><a href="faq">FAQ</a></li>
-            </ul>
-          </div>
-        </li>
 
         <li>
-          <a href="#">Books<i class="fas fa-caret-down"></i></a>
+          <a href="children-books">Books<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='children-books') }}">Children Books</a></li>
@@ -65,32 +53,41 @@
         </li>
 
         <li>
-          <a href="#">About Us<i class="fas fa-caret-down"></i></a>
+          <a href="contact-us">Additional Resources<i class="fas fa-caret-down"></i></a>
           <div class="dropdown-menu">
             <ul>
               <li><a href="{{ url_for('dropdown', selected_item='contact-us') }}">Contact Us</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='research') }}">Research</a></li>
               <li><a href="{{ url_for('dropdown', selected_item='blogs') }}">Blogs</a></li>
+              <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
         </li>
       </ul>
     </div>
+    <div class="breadcrumbs">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="greetings">Video Resources</a></li>
+        <li><a href="greetings">Greetings</a></li>
+      </ul>
+    </div>
     <div class="hero">
       &nbsp;
       <div class="greetings-content">
-        <h2>ASL Greetings</h2>
+        <h1>ASL Greetings</h1>
+        &nbsp;
         <p>In American Sign Language, greetings are essential for communication. Here are some basic ASL greetings:</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/y9Rj_X0IsKY?si=JEUAKWSM8wPdYJfA" frameborder="0" allowfullscreen></iframe>
         <div class="greeting-item">
           &nbsp;
-          <h3>Hello</h3>
+          <h2>Hello</h2>
           <p>Wave your open hand at shoulder level.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/uKKvNqA9N20?si=rbBmI8fLjwTTfIeI" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="greeting-item">
           &nbsp;
-          <h3>Goodbye</h3>
+          <h2>Goodbye</h2>
           <p>Wave your open hand down at waist level.</p>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/TWwKwKH8MwA?si=61aiUa1w2jdvPcmr" frameborder="0" allowfullscreen></iframe>
         </div>
