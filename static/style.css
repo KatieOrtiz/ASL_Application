@@ -346,3 +346,8 @@
 .breadcrumbs a:hover {
   text-decoration: underline;
 }
+
+.logo a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit; /* Inherits the color from its parent (or set your desired color) */
+}
